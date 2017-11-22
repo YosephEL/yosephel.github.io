@@ -1,0 +1,402 @@
+/* css  Oct. 03. 2017 by Yoseph Endrias by the help of Madam monoro, powercoders */
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Roboto:400,700i');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Nosifer|Roboto');
+@import url(../fonts/font-awesome/css/font-awesome.css);
+@import url(../styles/particles-grid.css);
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: gainsboro;
+	font-size: 1rem;
+	color: black;
+	font-size: 1rem;
+	margin: 20px;
+	font-weight: 400;
+	margin-top: 15px;
+    margin-bottom: 15px;
+   	margin-right: 15px;
+    margin-left: 15px;
+	
+}
+h1 {
+	font-family: 'Bree Serif', serif;
+	font-weight: 700;
+	color: coral;
+}
+h2, h3 {
+	color: coral;
+	font-weight: 700;
+}
+p {
+	line-height: 170%;
+}
+hr.topline1 {
+	border-top: 3px double black;
+}
+header {
+	font-weight: 700;
+	border-radius: 25px 25px 0px 0px;
+    background: linear-gradient(to right, rgb(26, 42, 108), rgb(178, 31, 31), rgb(253, 187, 45));	padding: 10px;
+
+}
+
+
+footer {
+    background: linear-gradient(to right, rgb(26, 42, 108), rgb(178, 31, 31), rgb(253, 187, 45));
+	font-family: cursive;
+	color: white;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	border-radius: 0px 0px 8px 8px;
+	font-size: 12px;
+	border: 100px;
+	
+
+}
+nav {
+	border-radius: 0px 0px 0px 0px;
+
+}
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav a:hover,
+nav a.selected{
+background: linear-gradient(to right, rgb(26, 42, 108), rgb(178, 31, 31), rgb(253, 187, 45));	color: #fff;    
+}
+	nav a:hover:after,
+	nav a.selected:after{
+	position:absolute;
+	right: 20px;
+	top: 8px;
+
+}
+ul {
+	display: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.displayNav {
+	display: block;
+}
+.bild img{
+  		border: 1px solid black;
+ 		padding: 2px;
+  		margin: 3px 0 0;
+		width: 200px;
+		height: auto;
+}
+.displayNav li  a {
+	background-color:skyblue;
+}
+
+li a {
+	display: block;
+	padding: 20px;
+	border-radius: 5px;
+	background: #1a2a6c;
+	font-size: 18px;
+	border-right: 1px solid white;
+	text-decoration: none; 
+}
+main{
+	margin: 0 auto;
+	background-color: whitesmoke;
+	border-radius: 8px 8px 8px 8px;
+
+}
+main .container{
+		padding-bottom: 50px;
+	}
+mapframe {
+	width: 100%;
+}
+
+.col{
+	border:  black solid;
+	height: 120px;
+	border-radius: 10px;
+}
+
+a {
+	color: white;
+
+}
+a:visited {
+	color: white;
+}
+.micon {
+	border: 1px solid #000;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+	display: block;
+	width: 200px;
+}
+.micon:hover{	
+   	box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.45);
+}
+.micon a{
+ 	color: whitesmoke;
+    text-decoration: none;
+}
+.micon i{
+    margin-bottom: 20px;
+}
+.picabout{
+	float: right;
+	width: 150px;
+	height: auto;
+	padding: 20px;
+	border: 1px solid black:
+}
+.profilepic {
+	float: left;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+
+}
+.mobmenu{
+	text-align: left;
+    padding: 20px 20px 0 0;
+    width: 20px;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+		
+	}
+.search{
+	display: none;
+}
+
+
+.container{
+		position: relative;
+	}
+.lyelogo
+	{
+display: none;
+
+	}
+	
+	.lyelogo img{
+		
+
+	}
+	.boxcontainer{
+		margin: 0 auto;
+  		padding:20px 20px 0;
+		#border: 1px solid green;
+  		box-sizing:border-box;
+  
+}
+	.box { 
+  		box-sizing:border-box;
+		#border: 1px solid black;
+		
+
+}
+	.box a{
+		text-decoration: none;
+	}
+	.bild{
+  		#border: 1px solid red;
+ 		padding: 2px;
+  		margin: 3px 0 0;
+}
+	.box h3{
+  		margin: 0 0 10px;
+}
+	.box:after{
+		clear:left;
+  		content:" ";
+  		display: block;
+	}
+	.box p{
+  		margin: 0 0 20px 175px;
+ 		padding:0;
+  		line-height: 150%;
+}
+
+#meta {
+	background-color:ghostwhite;
+	margin: 0;
+	padding: 5px 50px;
+}
+#meta a,
+#meta a:visited{ 
+	color: #333333;
+	text-decoration: none; 
+}
+nav a:hover {color: #ff6677;}
+nav a:active { color:#ff6600;}
+
+.sub { 
+	float: right;
+	
+}
+#meta:after{
+	clear:right;
+  	content:" ";
+  	display: block;
+}	
+
+	
+
+/*--------  Media queries for min 600------*/
+
+@media screen and (min-width:600px) {
+
+	.container {
+		margin: 0 auto;
+		max-width: 700px;
+
+
+	
+	}
+
+	body {
+		font-size: 1.2rem;
+		
+	}
+	/*--------  ------*/
+
+	li {
+		
+		display: inline-block;
+	}
+	ul {
+		margin: 0 auto;
+		display: inline-block;
+	}
+	nav {
+		margin: 0 auto;
+	}
+	header{
+			padding: 20px;
+
+	}
+	.profilepic {
+		float: right;
+		width: 200px;
+		height: auto;
+
+	}
+	/*--------  ------*/
+
+	.mobmenu{
+		display: none;
+	}
+	.pror_container{
+
+		margin: 0 auto;
+	
+		
+	}
+	main{
+
+		margin: 0 auto;
+		padding: 30px;
+		padding-bottom: 50px;
+
+	}
+	main .container{
+	}
+.picabout{
+	float: right;
+	width: 150px;
+	height: auto;
+	padding: 20px;
+	border: 1px solid black:
+		
+	.micon {
+		display: block;
+	}
+	.micon a{
+		background-color: floralwhite;
+	}
+	
+	.
+	/*--------  ------*/
+	.container{
+		position: relative;
+	}
+	.lyelogo
+	{
+		left: 210px;
+		top: -30px	
+	}
+	
+	.lyelogo img{
+		
+		width: 120px;
+	}
+
+	.search{
+    padding: 20px 20px 0 0;
+    width: 250px;
+    float: right;
+	border-radius: 4px 4px 4px 4px;
+	display: inline-block;
+	}
+	.inputclasses {
+		width: 200px;
+	}
+}
+/*--------  Media queries min 900 px------*/
+
+@media screen (min-width:900px){
+	
+	.container {
+		margin: 0 auto;
+	
+	}
+	.container{
+	position: relative;
+
+	}
+	.lyelogo
+	{
+		position: absolute;
+		left: 270px;
+		top: -15px	
+	}
+	.lyelogo img{
+		
+		width: 290px;
+	}
+	header{
+			padding: 80px;
+
+	}
+	
+	.search{
+    padding: 20px 20px 0 0;
+    width: 250px;
+    float: right;
+	border-radius: 4px 4px 4px 4px;
+	display: inline-block;
+
+		
+	}
+	.inputclasses {
+		width: 200px;
+	}
+	
+}
+/*--------  Media queries max ------*/
