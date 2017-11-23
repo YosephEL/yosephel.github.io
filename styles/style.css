@@ -177,7 +177,7 @@ a:visited {
 }
 .profilepic {
 	float: left;
-	width: 330px;
+	width: 300px;
 	height: auto;
 	padding: 10px;
 
@@ -304,7 +304,7 @@ nav a:active { color:#ff6600;}
 	}
 	.profilepic {
 		float: right;
-		width: 400px;
+		width: 350px;
 		height: auto;
 
 	}
