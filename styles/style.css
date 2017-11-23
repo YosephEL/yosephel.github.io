@@ -129,6 +129,9 @@ main{
 	border-radius: 8px 8px 8px 8px;
 
 }
+main a{
+	color: blue;
+}
 main .container{
 		padding-bottom: 50px;
 	}
