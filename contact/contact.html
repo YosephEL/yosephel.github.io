@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Yoseph E.L powercoders school web design and developmet project.
+ Sept 25.2017 to Dec 24.2017 Zurich class. -->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="../styles/style.css" rel="stylesheet" type="text/css">
+	<title>YosephEL</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="lyelogo">
+				<a href="index.html"></a>
+			</div>
+			<div class="search">
+				<input class="inputclasses" id="search" name="seach" style="border-radius: 8px; border: 4px;" type="text"><i aria-hidden="true" class="fa fa-search"></i>
+			</div>
+			<h2>Yoseph E. Lechebo</h2>
+		</div>
+		<div class="mobmenu">
+			<a href="#"><i aria-hidden="true" class="fa fa-bars fa-2x"></i></a>
+		</div>
+	</header>
+	<nav>
+		<div class="container">
+			<ul class="navuldropdown">
+				<li class="navlicontent">
+					<a href="../index.html">Home</a>
+				</li>
+				<li class="navlicontent">
+					<a href="#">About</a>
+				</li>
+				<li class="navlicontent">
+					<a class="selected" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<h1>Contact me</h1>
+			<div class="container">
+
+				<p>Send your messages here!</p>
+				<p></p>
+				<form action="#" enctype="multipart/form-data" id="contact_form" method="post" name="contact_form">
+					<div class="row">
+						<label for="name">Your name:</label><br>
+						<input class="input" id="name" name="name" size="30" type="text" value=""><br>
+					</div>
+					<div class="row">
+						<label for="email">Your email:</label><br>
+						<input class="input" id="email" name="email" size="30" type="text" value=""><br>
+					</div>
+					<div class="row">
+						<label for="message">Your message:</label><br>
+						<textarea class="input" cols="40" id="message" name="message" rows="10"></textarea><br>
+					</div><input id="submit_button" type="submit" value="Send">
+				</form>
+				<h1>Contact Address</h1>
+				<p><iframe allowfullscreen frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16746.043361992317!2d8.542859818046084!3d47.38310175709427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2zWsO8cmljaA!5e0!3m2!1sen!2sch!4v1506946904401" style="border:0" width="50%"></iframe>
+				</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<script>
+			var navuldropdown = document.getElementsByClassName("navuldropdown")[0];
+			var mobmenu = document.getElementsByClassName("mobmenu")[0];
+			mobmenu.addEventListener('click', function() {
+				if (navuldropdown.classList.contains("displayNav") == false) {
+					navuldropdown.classList.add("displayNav");
+				} else {
+					navuldropdown.classList.remove("displayNav");
+				}
+			})
+
+		</script>
+		<div class="container_footer">
+			<a href="#"><i aria-hidden="true" class="fa fa-twitter-square fa-2x"></i></a> <a href="#"><i aria-hidden="true" class="fa fa-instagram fa-2x"></i></a> <a href="#"></a> <a href="#"><i aria-hidden="true" class="fa fa-facebook-square fa-2x"></i></a> <a href="#"><i aria-hidden="true" class="fa fa-linkedin-square fa-2x"></i></a>
+		</div>
+	</footer>
+</body>
+
+</html>
