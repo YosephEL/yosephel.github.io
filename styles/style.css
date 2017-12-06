@@ -109,7 +109,6 @@ nav a.selected:after {
 	height: auto;
 	padding: 10px 10px 30px 10px;
 	background: white;
-	border: solid 1px red;
 }
 
 .container_footer {
@@ -270,7 +269,6 @@ a:visited {
 }
 
 .bild {
-	#border: 1px solid red;
 	padding: 2px;
 	margin: 3px 0 0;
 }
@@ -378,7 +376,6 @@ nav a:active {
 		position: relative;
 		align-items: center;
 		
-		border: solid 1px red;
 	}
 	
 	
